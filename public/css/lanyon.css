@@ -46,8 +46,8 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Alegreya Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Nunito Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   color: #313131;
   letter-spacing: -.025rem;
 }
@@ -106,6 +106,7 @@ strong {
 }
 .masthead-title {
   font-family: "Oxygen", "Source Han Sans", Helvetica, Arial, sans-serif;
+  /* Oxygen, Sacramento */
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
@@ -155,7 +156,7 @@ strong {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "Alegreya Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
+  font-family: "Nunito Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -370,7 +371,8 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Alegreya Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
+  font-family: "Nunito Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   color: #ccc;
   text-align: center;
 }
