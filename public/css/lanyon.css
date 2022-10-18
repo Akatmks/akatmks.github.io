@@ -202,7 +202,7 @@ a.sidebar-nav-item:focus {
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
-  position: relative;
+  position: absolute;
   opacity: 0;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -211,7 +211,7 @@ a.sidebar-nav-item:focus {
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
-  position: relative;
+  position: absolute;
   top:  .8rem;
   left: 1rem;
   display: flex;
@@ -532,6 +532,8 @@ a.pagination-item:hover {
   color: #8f5536;
 }
 
+/* 勿忘草 forget-me-not */
+/* https://nipponcolors.com/#wasurenagusa */
 .theme-wasurenagusa .sidebar,
 .theme-wasurenagusa .sidebar-toggle:active,
 .theme-wasurenagusa #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -541,6 +543,19 @@ a.pagination-item:hover {
 .theme-wasurenagusa .sidebar-toggle,
 .theme-wasurenagusa .related-posts li a:hover {
   color: #7DB9DE;
+}
+
+/* 柳染 willow */
+/* https://nipponcolors.com/#yanagizome */
+.theme-yanagizome .sidebar,
+.theme-yanagizome .sidebar-toggle:active,
+.theme-yanagizome #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #91AD70;
+}
+.theme-yanagizome .container a,
+.theme-yanagizome .sidebar-toggle,
+.theme-yanagizome .related-posts li a:hover {
+  color: #91AD70;
 }
 
 /*
