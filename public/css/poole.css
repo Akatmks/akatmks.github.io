@@ -389,7 +389,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Merriweather Sans", "Noto Sans Japanese", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Noto Sans Japanese", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
