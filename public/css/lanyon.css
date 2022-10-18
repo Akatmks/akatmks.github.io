@@ -42,7 +42,7 @@ body {
 
 html {
   font-family: "Faustina", Georgia, "Times New Roman", serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
+}
+
+strong {
+  font-weight: 500;
 }
 
 
