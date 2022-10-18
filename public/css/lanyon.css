@@ -100,13 +100,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
+  font-family: "Oxygen", "Source Han Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
-}
-.masthead-title h3 {
-  font-family: "Oxygen", "Source Han Sans", Helvetica, Arial, sans-serif;
-  font-weight: 300;
 }
 .masthead-title a {
   color: #505050;
