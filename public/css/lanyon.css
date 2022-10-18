@@ -202,7 +202,7 @@ a.sidebar-nav-item:focus {
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
-  position: static;
+  position: relative;
   opacity: 0;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -211,7 +211,7 @@ a.sidebar-nav-item:focus {
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
-  position: static;
+  position: relative;
   top:  .8rem;
   left: 1rem;
   display: flex;
