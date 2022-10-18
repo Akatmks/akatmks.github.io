@@ -28,7 +28,14 @@ html {
   font-family: "Faustina", "Source Han Serif", Georgia, serif;
   font-weight: 300;
 }
-.masthead-title {
+strong,
+dt,
+th,
+abbr {
+  font-weight: 500;
+}
+.masthead-title,
+.masthead-title small {
   font-family: "Oxygen", "Source Han Sans", Tahoma, sans-serif;
   /* Oxygen, Sacramento */
   font-weight: 300;
@@ -41,11 +48,12 @@ h1, h2, h3, h4, h5, h6,
 code {
   font-family: "Noto Sans Mono", "Source Code Pro", monospace;
   font-weight: 400;
-  font-size: 85%;
-	padding: .15em .3em;
+  font-size: 83%;
+	padding: 0.15em 0.36em;
+  border-radius: 0.27em;
 }
-strong {
-  font-weight: 400;
+pre code {
+  font-size: 94%;
 }
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0; /* Undo a setting by Lanyon */
@@ -61,6 +69,14 @@ h2 {
 }
 h3 {
   margin-top: 1.25rem;
+}
+.message {
+	padding: 0.6rem 1.4rem 0.77rem 1.4rem;
+	border-radius: 0.9rem;
+}
+pre {
+  padding: 0.65rem 1.4rem 0.7rem 1.4rem;
+	border-radius: 0.9rem;
 }
 
 /* ==== Custom themes ==== */
