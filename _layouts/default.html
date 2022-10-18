@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="theme-base-0c">
+  <body class="theme-wasurenagusa sidebar-overlay">
 
     {% include sidebar.html %}
 
@@ -11,6 +11,8 @@
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
+        <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+        
         <div class="container">
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
@@ -23,8 +25,6 @@
         {{ content }}
       </div>
     </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
   </body>

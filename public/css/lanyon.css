@@ -202,7 +202,7 @@ a.sidebar-nav-item:focus {
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
-  position: absolute;
+  position: fixed;
   opacity: 0;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -211,7 +211,7 @@ a.sidebar-nav-item:focus {
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
-  position: absolute;
+  position: fixed;
   top:  .8rem;
   left: 1rem;
   display: flex;
@@ -532,6 +532,16 @@ a.pagination-item:hover {
   color: #8f5536;
 }
 
+.theme-wasurenagusa .sidebar,
+.theme-wasurenagusa .sidebar-toggle:active,
+.theme-wasurenagusa #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #7DB9DE;
+}
+.theme-wasurenagusa .container a,
+.theme-wasurenagusa .sidebar-toggle,
+.theme-wasurenagusa .related-posts li a:hover {
+  color: #7DB9DE;
+}
 
 /*
  * Overlay sidebar
