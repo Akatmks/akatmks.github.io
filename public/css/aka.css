@@ -25,26 +25,28 @@
 
 /* ==== Modification on fonts ==== */
 html {
-  font-family: "Faustina", "Source Han Serif", Georgia, "Times New Roman", serif;
+  font-family: "Faustina", "Source Han Serif", Georgia, serif;
+  font-weight: 300;
+}
+.masthead-title {
+  font-family: "Oxygen", "Source Han Sans", Tahoma, sans-serif;
+  /* Oxygen, Sacramento */
+  font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6,
+.pagination {
+  font-family: "Alegreya Sans", "Source Han Sans", Tahoma, sans-serif;
+  font-weight: 300;
+}
+code {
+  font-family: "Noto Sans Mono", "Roboto Mono", monospace;
   font-weight: 300;
 }
 strong {
   font-weight: 400;
 }
-.masthead-title {
-  font-family: "Oxygen", "Source Han Sans", Helvetica, Arial, sans-serif;
-  /* Oxygen, Sacramento */
-  font-weight: 300;
-}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Alegreya Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: #313131;
-  letter-spacing: 0;
-}
-.pagination {
-  font-family: "Alegreya Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  letter-spacing: 0; /* Undo a setting by Lanyon */
 }
 
 /* ==== Modification on margin ==== */
