@@ -1,0 +1,87 @@
+/* aka.css
+ * Copyright (c) Akatsumekusa
+ */
+
+/* aka.css is a modification to Lanyon and thus follows Lanyon's license.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to
+ * deal in the Software without restriction, including without limitation the
+ * rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ * sell copies of the Software, and to permit persons to whom the Software is
+ *  furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+/* ==== Modification on fonts ==== */
+html {
+  font-family: "Faustina", "Source Han Serif", Georgia, "Times New Roman", serif;
+  font-weight: 300;
+}
+strong {
+  font-weight: 400;
+}
+.masthead-title {
+  font-family: "Oxygen", "Source Han Sans", Helvetica, Arial, sans-serif;
+  /* Oxygen, Sacramento */
+  font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Alegreya Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #313131;
+  letter-spacing: 0;
+}
+.pagination {
+  font-family: "Alegreya Sans", "Source Han Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+/* ==== Modification on margin ==== */
+.masthead {
+  margin-bottom: 2.5rem;
+}
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+h3 {
+  margin-top: 1.25rem;
+}
+
+/* ==== Custom themes ==== */
+/* 勿忘草 forget-me-not */
+/* https://nipponcolors.com/#wasurenagusa */
+.theme-wasurenagusa .sidebar,
+.theme-wasurenagusa .sidebar-toggle:active,
+.theme-wasurenagusa #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #7DB9DE;
+}
+.theme-wasurenagusa .container a,
+.theme-wasurenagusa .sidebar-toggle,
+.theme-wasurenagusa .related-posts li a:hover {
+  color: #7DB9DE;
+}
+
+/* 柳染 willow */
+/* https://nipponcolors.com/#yanagizome */
+.theme-yanagizome .sidebar,
+.theme-yanagizome .sidebar-toggle:active,
+.theme-yanagizome #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #91AD70;
+}
+.theme-yanagizome .container a,
+.theme-yanagizome .sidebar-toggle,
+.theme-yanagizome .related-posts li a:hover {
+  color: #91AD70;
+}
