@@ -17,14 +17,18 @@
   {% endif %}
 
   <link rel="stylesheet" href="{{ '/public/css/poole.css' | absolute_url }}">
-  <link rel="stylesheet" href="{{ '/public/css/syntax.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/public/css/syntax.css' | absolute_url }}" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="{{ '/public/css/syntax.css' | absolute_url }}"></noscript>
   <link rel="stylesheet" href="{{ '/public/css/lanyon.css' | absolute_url }}">
   <link rel="stylesheet" href="{{ '/public/css/aka.css' | absolute_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&text=Aabegklmostu%27&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300;0,500;1,300;1,500&family=Alegreya+Sans:ital,wght@0,300;0,400;1,300;1,400&subset=latin,latin-ext&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400&subset=latin&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&text=Aabegklmostu%27&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&text=Aabegklmostu%27&display=swap"></noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300;0,500;1,300;1,500&family=Alegreya+Sans:ital,wght@0,300;0,400;1,300;1,400&subset=latin,latin-ext&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300;0,500;1,300;1,500&family=Alegreya+Sans:ital,wght@0,300;0,400;1,300;1,400&subset=latin,latin-ext&display=swap"></noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400&subset=latin&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400&subset=latin&display=swap"></noscript>
 
   <link rel="icon" type="image/png" size="16x16" href="{{ '/public/favicon-16x16.png' | absolute_url }}">
   <link rel="icon" type="image/png" size="32x32" href="{{ '/public/favicon-32x32.png' | absolute_url }}">
