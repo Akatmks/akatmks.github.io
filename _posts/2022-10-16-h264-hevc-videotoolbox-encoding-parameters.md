@@ -1,6 +1,6 @@
 ---
 layout: post
-title: H264/HEVC VideoToolbox Encoding Parameters
+title: H264/HEVC VideoToolbox encoding parameters
 ---
 
 This note explains the basic parameters for FFmpeg's `h264_videotoolbox` and `hevc_videotoolbox` codec, exploring its hardware encoding capabilities on Apple silicon.  
