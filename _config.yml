@@ -5,7 +5,7 @@ title:               Akatsumekusa's notes
 url:                 https://akatmks.github.io
 baseurl:             ''
 paginate:            8
-permalink:           pretty
+permalink:            	/:categories/:year/:month/:title/
 
 # About/contact
 author:

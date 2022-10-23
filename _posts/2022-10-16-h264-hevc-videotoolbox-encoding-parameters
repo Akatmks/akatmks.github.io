@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Test
+title: H264/HEVC VideoToolbox Encoding Parameters
 ---
-
-H264/HEVC VideoToolbox Encoding Parameters  
 
 This note explains the basic parameters for FFmpeg's `h264_videotoolbox` and `hevc_videotoolbox` codec, exploring its hardware encoding capabilities on Apple silicon.  
 
@@ -105,7 +103,7 @@ Set this value to true if frames compressed in a separate session will be concat
 
 Allow software encoding.  
 
-In Akatsumekusa's test, VideoToolbox didn't use software encoding when encoding a 1080p video on M1 with this value set to true.  
+In Akatsumekusa's test, VideoToolbox didn't use software encoding when encoding a 1080p23.976 video on M1 with this value set to true.  
 
 Also, note that information in this page focuses on VideoToolbox's hardware encoding capacities while completely ignores its software encoding.  
 
@@ -124,7 +122,7 @@ Hint that encoding should happen in realtime if not faster.
 
 Prioritise encoding speed over efficiency.  
 
-In Akatsumekusa's test, VideoToolbox didn't trade efficiency for speed when encoding a 1080p video on M1 with this value set to true.  
+In Akatsumekusa's test, VideoToolbox didn't trade efficiency for speed when encoding a 1080p23.976 video on M1 with this value set to true.  
 
 ### a53cc
 *Accepts boolean value, either true or false. Default: true.*  
