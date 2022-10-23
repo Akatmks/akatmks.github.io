@@ -15,7 +15,7 @@ VideoToolbox in FFmpeg supports both VBR (Variable Bitrate) mode and CQ (Constan
 *Accepts int64 value from 0 to I64_Max. Default: 200k.*  
 
 Set the target bitrate for encoding in VBR mode.  
-Akatsumekusa suggests a good starting point for 1080p video to be around 2000k to 8000k depending on the complexity of the video.  
+Akatsumekusa suggests a good starting point for 1080p23.976 video to be around 2000k to 8000k depending on the complexity of the video.  
 
 ### q:v
 *Accepts float value from 0 to 100. Default: Not Set.*  
