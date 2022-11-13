@@ -44,9 +44,8 @@ $$Q = \frac{x_n - x_{n-1}}{x_n - x_1}$$
 
 $x_1$ and $x_n$ could be labeled as potential outliers if the Q-value for them is greater than a pre-defined critical Q-value. Dixon provides an table of example critical Q-values for CL 90%, 95% and 99% with $N$ from $3$ to $10$.  
 
-| ---
-| --: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | $N$ | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| --: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | $Q_{90\%}$ | 0.941 | 0.765 | 0.642 | 0.560 | 0.507 | 0.468 | 0.437 | 0.412 |
 | $Q_{95\%}$ | 0.970 | 0.829 | 0.710 | 0.625 | 0.568 | 0.526 | 0.493 | 0.466 |
 | $Q_{99\%}$ | 0.994 | 0.926 | 0.821 | 0.740 | 0.680 | 0.634 | 0.598 | 0.568 |
