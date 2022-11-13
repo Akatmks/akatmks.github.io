@@ -8,5 +8,5 @@ Knowledge on statistics is more important than any when it comes to the developm
 ### Interquartile range
 
 Outliers are defined as data that falls below $\mathit{Q1} - 1.5\mathit{IQR}$ or above $\mathit{Q3} + 1.5\mathit{IQR}$.  
-with $\mathit{Q1}$ and $\mathit{Q3}$ denoting 25th and 75th percentile of the sample, respectively, and $\mathit{IQR}$ represents the interquartile range and given by $\mathit{Q3} - \mathit{Q1}$.  
+with $\mathit{Q1}$ and $\mathit{Q3}$ denoting 25th and 75th percentile of the sample respectively, and $\mathit{IQR}$ represents the interquartile range and given by $\mathit{Q3} - \mathit{Q1}$.  
 
