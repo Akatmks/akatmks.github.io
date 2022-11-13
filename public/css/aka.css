@@ -72,6 +72,7 @@ h2 {
 }
 h3 {
   margin-top: 1.25rem;
+  margin-bottom: 0.6rem;
 }
 .message {
 	padding: 0.6rem 1.4rem 0.77rem 1.4rem;
@@ -81,10 +82,9 @@ pre {
   padding: 0.65rem 1.4rem 0.7rem 1.4rem;
 	border-radius: 0.9rem;
 }
-
-/* ==== Modification on math ==== */
 .MathJax {
-	margin: 0em 0.06em 0em 0.01em;
+  margin-left: 0.01em;
+	margin-right: 0.06em;
 }
 
 /* ==== Custom themes ==== */
