@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Note on outliers in statistics
+title: Note on outliers in statistics [In Progress]
 ---
 
 When developing [Number Crunching Motion](https://github.com/Akatmks/Number-Crunching-Motion), Akatsumekusa realised that knowledge on statistics is more important than any. This note lists all the possible ways Akatsumekusa found to remove outliers from a sample, and then explains Akatsumekusa's choice in the case of Number Crunching AAE Export.  
