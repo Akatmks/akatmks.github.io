@@ -14,6 +14,7 @@ The Z-score of an observation is defined as
 $$Z_i = \frac{x_i - \bar{x}}{s}$$
 
 with $\bar{x}$ and $s$ denoting the sample mean and sample standard deviation respectively. Data with a Z-score with an absolute value of greater than 3 could be labeled as potential outliers.  
+Note that Z-score could be misleading as the maximum Z-score for an observation is at most $\frac{n - 1}{\sqrt{n}}$
 
 ### Iglewicz and Hoaglin's modified Z-score
 
@@ -28,6 +29,10 @@ with $\tilde{x}$ denoting the sample median and $\mathit{MAD}$ representing the 
 Data that falls below $Q_1 - 1.5\mathit{IQR}$ or above $Q_3 + 1.5\mathit{IQR}$ could be labeled as potential outliers, with $Q_1$ and $Q_3$ denoting 25<sup>th</sup> and 75<sup>th</sup> percentile of the sample respectively, and $\mathit{IQR}$ representing the interquartile range.  
 
 ### Dixon's Q test
+
+Sort the data such that  
+
+$$x_1 < x_2 < \ldots < x_n$$
 
 ## Various sources
 
