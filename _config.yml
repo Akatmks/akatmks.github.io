@@ -14,6 +14,7 @@ author:
   email:             Akatsumekusa@protonmail.com
 
 markdown:            kramdown
+
 # Gems
 plugins:
   - jekyll-paginate

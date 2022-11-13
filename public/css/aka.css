@@ -82,6 +82,11 @@ pre {
 	border-radius: 0.9rem;
 }
 
+/* ==== Modification on math ==== */
+.MathJax {
+	margin: 0em 0.06em 0em 0.01em;
+}
+
 /* ==== Custom themes ==== */
 /* 勿忘草 forget-me-not */
 /* https://nipponcolors.com/#wasurenagusa */
