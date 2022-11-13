@@ -3,7 +3,9 @@ layout: post
 title: Note on outliers in statistics [In writing]
 ---
 
-Knowledge on statistics is more important than any when it comes to the development of [Number Crunching Motion](https://github.com/Akatmks/Number-Crunching-Motion). This note lists all the possible ways Akatsumekusa found to remove outliers from a sample, and then explains Akatsumekusa's choice in the case of Number Crunching AAE Export.  
+Knowledge on statistics is more important than any when it comes to the development of [Number Crunching Motion](https://github.com/Akatmks/Number-Crunching-Motion). This note lists all the possible methods Akatsumekusa found to remove outliers from a sample, and explains Akatsumekusa's choice in the case of Number Crunching AAE Export.  
+
+## Detection of outliers
 
 ### Z-score
 
@@ -24,6 +26,8 @@ with $\tilde{x}$ denoting the sample median and $\mathit{MAD}$ representing the 
 ### Interquartile range
 
 Data that falls below $Q_1 - 1.5\mathit{IQR}$ or above $Q_3 + 1.5\mathit{IQR}$ could be labeled as potential outliers, with $Q_1$ and $Q_3$ denoting 25<sup>th</sup> and 75<sup>th</sup> percentile of the sample respectively, and $\mathit{IQR}$ representing the interquartile range.  
+
+### Dixon's Q test
 
 ## Various sources
 
