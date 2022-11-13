@@ -13,8 +13,8 @@ The Z-score of an observation is defined as
 
 $$Z_i = \frac{x_i - \bar{x}}{s}$$
 
-with $\bar{x}$ and $s$ denoting the sample mean and sample standard deviation respectively. Data with a Z-score with an absolute value of greater than 3 could be labeled as potential outliers.  
-Note that Z-score could be misleading as the maximum Z-score for an observation is at most $\frac{n - 1}{\sqrt{n}}$
+with $\bar{x}$ and $s$ denoting the sample mean and sample standard deviation respectively. Data with a Z-score with an absolute value of greater than $3$ could be labeled as potential outliers.  
+Note that Z-score could be misleading as the maximum Z-score for an observation is at most $(N - 1) / \sqrt{N}$
 
 ### Iglewicz and Hoaglin's modified Z-score
 
@@ -22,7 +22,7 @@ The Z-score of an observation is defined as
 
 $$M_i = \frac{0.6745(x_i - \tilde{x})}{\mathit{MAD}}$$
 
-with $\tilde{x}$ denoting the sample median and $\mathit{MAD}$ representing the median absolute deviation. Iglewicz and Hoaglin recommends that modified Z-scores with an absolute value of greater than 3.5 be labeled as potential outliers.  
+with $\tilde{x}$ denoting the sample median and $\mathit{MAD}$ representing the median absolute deviation. Iglewicz and Hoaglin recommends that modified Z-scores with an absolute value of greater than $3.5$ be labeled as potential outliers.  
 
 ### Interquartile range
 
@@ -34,12 +34,36 @@ Sort the data such that
 
 $$x_1 < x_2 < \ldots < x_n$$
 
+The Q-value for $x_1$ is defined as  
+
+$$Q = \frac{x_2 - x_1}{x_n - x_1}$$
+
+The Q-value for $x_n$ is defined as  
+
+$$Q = \frac{x_n - x_{n-1}}{x_n - x_1}$$
+
+$x_1$ and $x_n$ could be labeled as potential outliers if the Q-value for them is greater than a pre-defined critical Q-value. Dixon provides an table of example critical Q-values for CL 90%, 95% and 99% with $N$ from $3$ to $10$.  
+
+| $N$ | $Q_{90\%}$ | $Q_{95\%}$ | $Q_{99\%}$ |
+| --- | ---------- | ---------- | ---------- |
+| 3   | 0.941      | 0.970      | 0.994      |
+| 4   | 0.765      | 0.829      | 0.926      |
+| 5   | 0.642      | 0.710      | 0.821      |
+| 6   | 0.560      | 0.625      | 0.740      |
+| 7   | 0.507      | 0.568      | 0.680      |
+| 8   | 0.468      | 0.526      | 0.634      |
+| 9   | 0.437      | 0.493      | 0.598      |
+| 10  | 0.412      | 0.466      | 0.568      |
+
+Dixon's Q test is recommended to never be used more than once on an observation.  
+
 ## Various sources
 
 These sites helps Akatsumekusa tremendously when researching the topic.
 
 * [NIST/SEMATECH Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm)  
 * [Wikipedia](https://en.wikipedia.org/wiki/Statistics)  
+* [Educational Applets by Constantinos E. Efstathiou](http://195.134.76.37/applets/Applet_Index2.htm)  
 
 Some contents in this note are directly copied from the following sites.  
 
