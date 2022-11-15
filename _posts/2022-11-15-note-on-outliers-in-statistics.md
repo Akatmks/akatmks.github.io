@@ -5,11 +5,9 @@ title: Note on outliers in statistics
 
 Knowledge on statistics is more important than any when it comes to [Number Crunching Motion](https://github.com/Akatmks/Number-Crunching-Motion). This note summarises Akatsumekusa's finding when looking for methods to remove outliers from a sample, and explains Akatsumekusa's choice in the case of Number Crunching AAE Export (NC AAE Export).  
 
-Note that the way Akatsumekusa and NC AAE Export views and treats outliers is different than that of a scientific research. In a scientific research, the researchers could draw two graphs next to each other, one without the outliers and one with. However, NC AAE Export can return one and only one point estimate.  
-
 ## Detection of outliers
 
-There are three basic ideas of outliers detection, deviation-based detection, interquartile-range-based detection, excess-based detection.  
+There are three basic ideas of outliers detection, deviation-based detection, interquartile-range-based detection and excess-based detection.  
 
 ### Deviation-based detection
 
