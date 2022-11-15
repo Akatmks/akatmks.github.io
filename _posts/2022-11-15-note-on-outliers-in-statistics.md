@@ -125,7 +125,9 @@ There are currently ~~3~~ cases in the Number Crunching AAE Export that requires
 
 ~~The problem with this step is that the original tracking data likely contains a large number of tracking errors, which will very much mess up the intersection calculation. Instead of trying to remove outliers and calculate average deviation, it would be better to ...~~ 
 
-Akatsumekusa just realised that there are machine learning models for clustering and there is a good library called scikit-learn.  
+...
+
+Akatsumekusa just realised that there are ML models for clustering analysis and there is a good Python library providing these models called scikit-learn.  
 
 ## Various sources
 
