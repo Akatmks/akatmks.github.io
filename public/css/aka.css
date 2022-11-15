@@ -77,6 +77,9 @@ h3 {
   margin-top: 1.25rem;
   margin-bottom: 0.6rem;
 }
+h4 {
+  margin-bottom: 0.6rem;
+}
 .message {
 	padding: 0.6rem 1.4rem 0.77rem 1.4rem;
 	border-radius: 0.9rem;
