@@ -129,7 +129,7 @@ Akatsumekusa just realised that there are machine learning models for clustering
 
 ## Various sources
 
-These sites helps Akatsumekusa tremendously when researching the topic.
+These sites and books help Akatsumekusa tremendously when researching the topic.
 
 * [Outliers in statistical data (1984) by Vic Barnett](https://archive.org/details/outliersinstatis0000barn_k7p8/page/n7/mode/2up)
 * [NIST/SEMATECH Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm)  
@@ -139,5 +139,3 @@ These sites helps Akatsumekusa tremendously when researching the topic.
 Some contents in this note are directly copied from the following sites.  
 
 * Z-score, Iglewicz and Hoaglin's modified Z-score, Grubbs' test, Tietjen-Moore test, Rosner's generalized ESD test: [NIST/SEMATECH Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm) ([„Public information“](https://www.nist.gov/oism/copyrights))  
-
-This book should also be great, but Akatsumekusa can't
