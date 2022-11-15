@@ -123,7 +123,7 @@ There are currently ~~3~~ cases in the Number Crunching AAE Export that requires
 
 ~~It works as such: First, it generates a number of random pairs of tracks for the frame from the position/movement array, and then it calculates the intersection for each pairs of position/movement. If all of the intersections are centred around a single point in the 2D space, it will be considered a frame with scaling and should be sent to the scale x/y functions. If otherwise the intersections are scattered around the space and especially if there are a lot of parallel pairs of movements, it should be considered a frame without scaling and be sent to the pure x/y functions.~~  
 
-~~The problem with this step is that the original tracking data likely contains a large number of tracking errors, which will very much mess up the intersection calculation. Instead of trying to remove outliers and calculate average deviation, it would be better to~~ 
+~~The problem with this step is that the original tracking data likely contains a large number of tracking errors, which will very much mess up the intersection calculation. Instead of trying to remove outliers and calculate average deviation, it would be better to ...~~ 
 
 Akatsumekusa just realised that there are machine learning models for clustering and there is a good library called scikit-learn.  
 
