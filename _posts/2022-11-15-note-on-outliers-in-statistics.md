@@ -131,7 +131,7 @@ Akatsumekusa just realised that there are machine learning models for clustering
 
 These sites and books help Akatsumekusa tremendously when researching the topic.
 
-* [Outliers in statistical data (1984) by Vic Barnett](https://archive.org/details/outliersinstatis0000barn_k7p8/page/n7/mode/2up)
+* [Outliers in statistical data (1984) by Vic Barnett](https://archive.org/details/outliersinstatis0000barn_k7p8/page/n7/)  
 * [NIST/SEMATECH Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm)  
 * [Wikipedia](https://en.wikipedia.org/wiki/Statistics)  
 * [Educational Applets by Constantinos E. Efstathiou](http://195.134.76.37/applets/Applet_Index2.htm)  
