@@ -3,7 +3,7 @@ layout: post
 title: Note on outliers in statistics
 ---
 
-This note summarises Akatsumekusa's finding when looking for methods to remove outliers from a sample, and explains Akatsumekusa's choice in the case of [Number Crunching AAE Export](https://github.com/Akatmks/Number-Crunching-Motion) (NC AAE Export).  
+This note summarises Akatsumekusa's finding when looking for methods to remove outliers from a sample, and explains Akatsumekusa's choice in the case of [Non Carbonated AAE Export](https://github.com/Akatmks/Non-Carbonated-Motion) (NC AAE Export).  
 
 ## Detection of outliers
 
@@ -109,11 +109,11 @@ $x_1$ and $x_n$ could be labelled as potential outliers if the Q-value for them 
 
 Dixon's Q test is recommended to never be used more than once on a dataset.  
 
-## The case of Number Crunching AAE Exprot
+## The case of Non Carbonated AAE Export
 
-*As the development of Number Crunching AAE Export is still ongoing at the moment, there may be more contents to be added to this note.*  
+*As the development of Non Carbonated AAE Export is still ongoing at the moment, there may be more contents to be added to this note.*  
 
-There are currently ~~3~~ cases in the Number Crunching AAE Export that requires outliers to be removed.  
+There are currently ~~3~~ cases in the Non Carbonated AAE Export that requires outliers to be removed.  
 
 ### ~~Step 18~~
 
